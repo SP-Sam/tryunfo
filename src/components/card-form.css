@@ -1,0 +1,50 @@
+.card-form {
+  align-items: center;
+  background-color: #B011FA;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 20px;
+  width: 49.9%;
+}
+
+.card-form h2 {
+  color: white;
+}
+
+.card-form label {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.5em;
+  margin: 10px;
+  width: 300px;
+}
+
+.card-atrib {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.card-atrib-1-input, .card-atrib-2-input, .card-atrib-3-input {
+  width: 67%;
+}
+
+.card-rarity {
+  padding: 5px;
+}
+
+.super-trunfo {
+  flex-direction: row;
+  line-height: 1.25em;
+}
+
+.super-trunfo-input {
+  margin-right: 7px;
+}
+
+.save-button {
+  cursor: pointer;
+  margin: 10px;
+  padding: 3px;
+  width: 300px;
+}
